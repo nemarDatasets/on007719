@@ -8,7 +8,7 @@
     ],
     "Acknowledgements": "Enter acknowledgements here (e.g., funding sources, institutions).",
     "HowToAcknowledge": "Provide details on how to cite or acknowledge this dataset.",
-    "DatasetDOI": "Enter DOI here if available.",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007719.v1.0.0",
     "Funding": [
         "Enter funding details here, if applicable."
     ],
