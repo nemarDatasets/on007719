@@ -1,33 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on007719",
-  "source": "openneuro",
-  "source_id": "ds007719",
+  "pipeline_stage": "enriched",
   "title": "Cambridge_data_resting",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Enter author names here": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007719.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007719",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007719",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
       "funder_name": "Enter funding details here, if applicable."
+    },
+    {
+      "funder_name": "Funding information not available - see OpenNeuro ds007719 source dataset"
     }
   ],
-  "acknowledgements": "Enter acknowledgements here (e.g., funding sources, institutions)."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "Cambridge resting-state fNIRS dataset. This is a raw fNIRS neuroimaging dataset containing resting-state functional near-infrared spectroscopy recordings mirrored from OpenNeuro (ds007719). The dataset includes SNIRF format data files and associated metadata in BIDS format. For complete dataset details, participant information, and acquisition parameters, please refer to the source dataset on OpenNeuro.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "Cambridge"
+    },
+    {
+      "term": "SNIRF"
+    },
+    {
+      "term": "optical neuroimaging"
+    }
+  ],
+  "source_hash": "cae5362edc510ff84d271b125b20614a0fb7346f7e2479cebf0186ecb998e9f2"
 }
