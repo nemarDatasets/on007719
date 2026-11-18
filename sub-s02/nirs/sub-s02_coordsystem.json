@@ -27,5 +27,6 @@
             115.20003154210288,
             52.641033704296675
         ]
-    }
+    },
+    "NIRSCoordinateSystemDescription": "Optode positions as stored in the SNIRF probe (3-D). The coordinate frame is not stated by the source, so it is reported as Other; positions are not transformed."
 }

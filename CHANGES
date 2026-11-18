@@ -1,2 +1,9 @@
+1.0.1 2026-11-18
+  - 65 sub-*/nirs/*_channels.tsv: channel names written as MNE-Python derives them from the SNIRF measurement list ("S1-D1-760.0" -> "S1_D1 760"); row order and the other columns unchanged
+  - 65 *_coordsystem.json: NIRSCoordinateSystemDescription added (BIDS requires it when NIRSCoordinateSystem is Other)
+  - 65 *_nirs.json: RecordingDuration and RecordingType computed from the SNIRF time vector of each recording
+  - sourcedata/: the published versions of the files whose values change in this version (65 channels.tsv), byte-identical at the same relative path (plain git files)
+  - README.md: new section "Contributed notes (version 1.0.1)"
+  - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2026-04-27
   - Added authors
